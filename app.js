@@ -24,7 +24,6 @@ app.use(express.static('public'))
     // jobs (with value of the getJobs function)
     // If no city info or jobs are found,
     // the endpoint should return a 404 status
-    
     res.status(404).json({error:'Not found'})}
  })
 
